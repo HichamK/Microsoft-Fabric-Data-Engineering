@@ -1,0 +1,104 @@
+{
+	"zoo": [
+		{
+			"zoo_id": 1,
+			"country": "USA",
+			"state": "California",
+			"city": "San Diego",
+			"animals": [
+				{
+					"animal_id": 1,
+					"name": "Lion",
+					"species": "Panthera leo",
+					"characteristics": {
+						"diet": "Carnivore",
+						"lifespan": {
+							"average_years": 14,
+							"in_wild": 12,
+							"in_captivity": 20
+						},
+						"habitat": [
+							"Savannah",
+							"Grassland"
+						],
+						"weight_kg": {
+							"male": 190,
+							"female": 130
+						}
+					}
+				},
+				{
+					"animal_id": 2,
+					"name": "Elephant",
+					"species": "Loxodonta africana",
+					"characteristics": {
+						"diet": "Herbivore",
+						"lifespan": {
+							"average_years": 60,
+							"in_wild": 50,
+							"in_captivity": 65
+						},
+						"habitat": [
+							"Savannah",
+							"Forest"
+						],
+						"weight_kg": {
+							"male": 6000,
+							"female": 3500
+						}
+					}
+				}
+			]
+		},
+		{
+			"zoo_id": 2,
+			"country": "Australia",
+			"state": "New South Wales",
+			"city": "Sydney",
+			"animals": [
+				{
+					"animal_id": 2,
+					"name": "Elephant",
+					"species": "Loxodonta africana",
+					"characteristics": {
+						"diet": "Herbivore",
+						"lifespan": {
+							"average_years": 60,
+							"in_wild": 50,
+							"in_captivity": 65
+						},
+						"habitat": [
+							"Savannah",
+							"Forest"
+						],
+						"weight_kg": {
+							"male": 6000,
+							"female": 3500
+						}
+					}
+				},
+				{
+					"animal_id": 3,
+					"name": "Penguin",
+					"species": "Aptenodytes forsteri",
+					"characteristics": {
+						"diet": "Carnivore",
+						"lifespan": {
+							"average_years": 20,
+							"in_wild": 15,
+							"in_captivity": 25
+						},
+						"habitat": [
+							"Antarctic",
+							"Coastal"
+						],
+						"weight_kg": {
+							"male": 35,
+							"female": 30
+						}
+					}
+				}
+			]
+		}
+	]
+}
