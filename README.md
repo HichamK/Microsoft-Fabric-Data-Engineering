@@ -16,7 +16,7 @@ L’objectif est de faciliter l’ingestion, la transformation et l’analyse de
    - Prépare les données pour l’analyse.
      
 3. **Fetch API Data Faster: Parallel API Calls in Microsoft Fabric Notebooks**  
-  - Exemple d’utilisation de requêtes parallèles pour accélérer la récupération de données depuis des APIs. 
+   - Exemple d’utilisation de requêtes parallèles pour accélérer la récupération de données depuis des APIs. 
 ---
 
 ## Fichiers à venir
