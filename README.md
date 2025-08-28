@@ -14,13 +14,15 @@ L’objectif est de faciliter l’ingestion, la transformation et l’analyse de
 2. **nb_fabric_series_flatten_json_file.py**  
    - Traite et aplatit des fichiers JSON complexes (arrays, objets imbriqués).  
    - Prépare les données pour l’analyse.
-
+     
+3. **Fetch API Data Faster: Parallel API Calls in Microsoft Fabric Notebooks**  
+  - Exemple d’utilisation de requêtes parallèles pour accélérer la récupération de données depuis des APIs. 
 ---
 
 ## Fichiers à venir
 
-- **Fetch API Data Faster: Parallel API Calls in Microsoft Fabric Notebooks**  
-  - Exemple d’utilisation de requêtes parallèles pour accélérer la récupération de données depuis des APIs.  
+- **Notebook reading Excel files**  
+  - Moves data from an Excel file in Azure Lakehouse into a managed Delta table in Spark.  
 
 ---
 
