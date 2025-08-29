@@ -26,8 +26,8 @@ The goal is to simplify data ingestion, transformation, and analysis of complex 
 
 ---
 
-## Prérequis
+## Prerequisites
 
-- **Microsoft Fabric Notebooks** (compte Microsoft nécessaire)  
-- Accès à un **Lakehouse** si les scripts écrivent des données  
-- Connaissances de base en **PySpark** pour exécuter et modifier les notebooks
+- **Microsoft Fabric Notebooks** (requires a Microsoft account)  
+- Access to a **Lakehouse** if scripts are writing data  
+- Basic knowledge of **PySpark** to run and adapt the notebooks
