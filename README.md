@@ -1,25 +1,25 @@
-# Microsoft Fabric JSON Notebooks
+# Microsoft Fabric Notebooks for Data Engineering
 
-Ce dépôt contient des scripts Python et notebooks pour traiter des données JSON et interagir avec des APIs dans **Microsoft Fabric Notebooks**.  
-L’objectif est de faciliter l’ingestion, la transformation et l’analyse de données complexes provenant d’APIs ou de fichiers JSON.
+This repository contains Python scripts and notebooks designed to process JSON data and interact with APIs within Microsoft Fabric Notebooks.
+The goal is to simplify data ingestion, transformation, and analysis of complex datasets coming from APIs or JSON files.
 
 ---
 
-## Fichiers actuels
+## Current Files
 
 1. **nb_fabric_series_fetch_data_from_api.py**  
-   - Récupère des données JSON paginées depuis une API.  
-   - Traite les données et les écrit dans un Lakehouse.  
+   - Retrieves paginated JSON data from an API.  
+   - Processes the data and writes it into a Lakehouse.  
 
 2. **nb_fabric_series_flatten_json_file.py**  
-   - Traite et aplatit des fichiers JSON complexes (arrays, objets imbriqués).  
-   - Prépare les données pour l’analyse.
+   - Processes and flattens complex JSON files (arrays, nested objects).  
+   - Prepares the data for analysis.
      
 3. **Fetch API Data Faster: Parallel API Calls in Microsoft Fabric Notebooks**  
-   - Exemple d’utilisation de requêtes parallèles pour accélérer la récupération de données depuis des APIs. 
+   - Example of using parallel requests to speed up data retrieval from APIs. 
 ---
 
-## Fichiers à venir
+## Upcoming Files
 
 - **Notebook reading Excel files**  
   - Moves data from an Excel file in Azure Lakehouse into a managed Delta table in Spark.  
