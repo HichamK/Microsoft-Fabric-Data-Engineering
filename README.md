@@ -15,14 +15,18 @@ The goal is to simplify data ingestion, transformation, and analysis of complex 
    - Processes and flattens complex JSON files (arrays, nested objects).  
    - Prepares the data for analysis.
      
-3. **Fetch API Data Faster: Parallel API Calls in Microsoft Fabric Notebooks**  
-   - Example of using parallel requests to speed up data retrieval from APIs. 
+3. **nb_fabric_series_parallel_api_calls.py**  
+   - Using parallel requests to speed up data retrieval from APIs.
+
+4. **nb_fabric_series_excel_files.py**  
+   - Notebook reading Excel files & write the spark df to lakehouse table
 ---
 
 ## Upcoming Files
 
-- **Notebook reading Excel files**  
-  - Moves data from an Excel file in Azure Lakehouse into a managed Delta table in Spark.  
+- **Python Notebooks in Microsoft Fabric**  
+  - How to use Python Notebooks for lightweight data operations in Fabric
+  - How to interact with Lakehouse files and Delta tables without Spark
 
 ---
 
