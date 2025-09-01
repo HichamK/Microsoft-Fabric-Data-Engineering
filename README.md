@@ -7,26 +7,30 @@ The goal is to simplify data ingestion, transformation, and analysis of complex 
 
 ## Current Files
 
-1. **nb_fabric_series_fetch_data_from_api.py**  
+1. **REST API Pagination in Microsoft Fabric Notebooks/nb_fabric_series_fetch_data_from_api.py**  
    - Retrieves paginated JSON data from an API.  
    - Processes the data and writes it into a Lakehouse.  
 
-2. **nb_fabric_series_flatten_json_file.py**  
+2. **Processing and Flattening JSON Files/nb_fabric_series_flatten_json_file.py**  
    - Processes and flattens complex JSON files (arrays, nested objects).  
    - Prepares the data for analysis.
      
-3. **nb_fabric_series_parallel_api_calls.py**  
+3. **Notebook Parallel API Calls/nb_fabric_series_parallel_api_calls.py**  
    - Using parallel requests to speed up data retrieval from APIs.
 
-4. **nb_fabric_series_excel_files.py**  
+4. **Notebook reading Excel files/nb_fabric_series_excel_files.py**  
    - Notebook reading Excel files & write the spark df to lakehouse table
+  
+5. **Vanilla Python Notebooks/nb_fabric_series_python.py**  
+   - How to use Python Notebooks for lightweight data operations in Fabric
+   - How to interact with Lakehouse files and Delta tables without Spark
 ---
 
 ## Upcoming Files
 
-- **Python Notebooks in Microsoft Fabric**  
-  - How to use Python Notebooks for lightweight data operations in Fabric
-  - How to interact with Lakehouse files and Delta tables without Spark
+- **Build Dynamic & Fast Notebooks**
+- **How to handle column changes in files in Microsoft Fabric notebooks**
+- **Python Terminal Colors and Text Styling**
 
 ---
 
